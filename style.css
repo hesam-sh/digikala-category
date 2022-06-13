@@ -1,0 +1,65 @@
+@import url("./fonts.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.5%;
+}
+
+body {
+  font-family: "iranyekan";
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1024px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+
+.category-center {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 3rem;
+  grid-row-gap: 5rem;
+}
+
+.caegory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-img img {
+  width: 180px;
+}
+
+.category-title {
+  font-size: 1.35rem;
+  text-align: center;
+}
